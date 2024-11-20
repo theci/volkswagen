@@ -1,0 +1,2 @@
+podman build -t lambda-selenium-python .
+podman run -e bucket=marketstatus-pdf -e AWS_ACCESS_KEY_ID=<key> -e AWS_SECRET_ACCESS_KEY=<access_key> -e log_level=INFO lambda-selenium-python

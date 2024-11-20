@@ -1,0 +1,7 @@
+{
+    "phase1_items":{
+        "pid1":{"url":"https://us-east-1.quicksight.aws.amazon.com/sn/dashboards/8e2c6dc2-fd18-4ad2-ab10-942149c252ab","__comment__" :"QuickSightDashboard_phase1_1"},
+        "pid2":{"url":"https://us-east-1.quicksight.aws.amazon.com/sn/dashboards/93373ffa-7e4b-4ee3-9a59-8608128a4d57","__comment__":"QuickSightDashboard_phase1_2"},
+        "pid3":{"url":"https://us-east-1.quicksight.aws.amazon.com/sn/dashboards/09acf2c8-158d-47b2-b63a-8cbfd183ad1e","__comment__":"QuickSightDashboard_phase1_cover"}
+    }
+}

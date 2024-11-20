@@ -1,0 +1,68 @@
+{
+    "__comment__":"",
+    "login_eid1":{
+        "class":"ID",
+        "path":"account-name-input",
+        "__comment__":"QuickSight Login - account 입력 화면의 account name 넣는 객체"
+    },
+    "login_eid2":{
+        "class":"ID",
+        "path":"account-name-submit-button",
+        "__comment__":"QuickSight Login - account 입력 화면의 확인 버튼 객체"
+    },
+    "login_eid3":{
+        "class":"ID",
+        "path":"username-input",
+        "__comment__":"QuickSight Login - user 입력 화면의 user name을 넣는 객체"
+    },
+    "login_eid4":{
+        "class":"ID",
+        "path":"username-submit-button",
+        "__comment__":"QuickSight Login - user 입력 화면의 확인 버튼 객체"
+    },
+    "login_eid5":{
+        "class":"ID",
+        "path":"awsui-input-0",
+        "__comment__":"QuickSight Login - password 입력 화면의 password를 넣는 객체"
+    },
+    "login_eid6":{
+        "class":"ID",
+        "path":"password-submit-button",
+        "__comment__":"QuickSight Login - password 입력 화면의 확인 버튼 객체"
+    },
+    "download_eid1":{
+        "class":"XPATH",
+        "path":"//button[@aria-label='Export']",
+        "__comment__":"퀵사이트의 상단 매뉴중 하나의 객체주소"
+    },
+    "download_eid2":{
+        "class":"XPATH",
+        "path":"//div[contains(@class,'sheet-tab-name')]",
+        "__comment__":"퀵사이트 데시보드의 전체 tab 이름 객체"
+    },
+    "download_eid8":{
+        "class":"XPATH",
+        "path":"//li[@data-automation-id='navbar_export_pane_toggle_open']",
+        "__comment__":"퀵사이트의 다운로드 준비 및 완료시 보이는 사이드 패널 객체주소"
+    },
+    "download_eid9":{
+        "class":"XPATH",
+        "path":"//*[@data-automation-id='exports_pane_card']",
+        "__comment__":"퀵사이트의 다운로드 준비 및 완료시 보이는 카드 객체주소"
+    },
+    "download_eid10":{
+        "class":"XPATH",
+        "path":"//*[@id='application-content']/div/div/div/div[2]/div[1]/div[2]/div/div[1]/div/div/div/div[{idx}]",
+        "__comment__":"Page 번호 / 클릭을 위한 탭의 주소"
+    },
+    "download_eid11":{
+        "class":"XPATH",
+        "path":"//p[contains(@class,'VegaTypography')] [contains(.,'{page_str}')][contains(.,'File name')]",
+        "__comment__":"pdf파일의 생성중인지 확인하는 서브탭 주소"
+    },
+    "download_eid12":{
+        "class":"XPATH",
+        "path":"//div[@data-automation-id='exports_pane_card'][contains(.,'Click to download')]",
+        "__comment__":"pdf파일의 생성완료 인지 확인하는 서브탭 주소"
+    }
+}
